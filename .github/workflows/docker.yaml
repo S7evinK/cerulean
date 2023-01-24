@@ -65,8 +65,9 @@ jobs:
 
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
+        if: github.ref_name == 'main'
         with:
-          image-ref: ghcr.io/${{ env.GHCR_NAMESPACE }}/cerulean:latest
+          image-ref: ghcr.io/${{ env.GHCR_NAMESPACE }}/cerulean:main
           format: "sarif"
           output: "trivy-results.sarif"
 
