@@ -11,4 +11,14 @@ entries:
     urls:
     - https://github.com/S7evinK/cerulean/releases/download/helm-cerulean-0.1.1/cerulean-0.1.1.tgz
     version: 0.1.1
-generated: "2023-01-24T11:59:42.810569301Z"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-01-24T12:08:45.176356468Z"
+    description: A Helm chart for Cerulean
+    digest: 51fd8357ec47a8d7a42c4412436a19d8c23541a19291e0f9933b257d20cbaa02
+    name: cerulean
+    type: application
+    urls:
+    - https://github.com/S7evinK/cerulean/releases/download/helm-cerulean-0.1.0/cerulean-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-01-24T12:08:45.176368168Z"
